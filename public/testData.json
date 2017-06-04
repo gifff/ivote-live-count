@@ -1,87 +1,69 @@
 {
-    "all": {
-        "vote1": 272,
-        "vote2": 240,
-        "total": 560
+    "vote_faiz": 1,
+    "vote_anjas": 1,
+    "golput": 570,
+    "a": {
+        "vote_faiz": 1,
+        "vote_anjas": 0
     },
-    "tifA": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "b": {
+        "vote_faiz": 1,
+        "vote_anjas": 1
     },
-    "tifB": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "c": {
+        "vote_faiz": 2,
+        "vote_anjas": 0
     },
-    "tifC": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "d": {
+        "vote_faiz": 3,
+        "vote_anjas": 0
     },
-    "tifD": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "e": {
+        "vote_faiz": 4,
+        "vote_anjas": 0
     },
-    "tifE": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "f": {
+        "vote_faiz": 1,
+        "vote_anjas": 1
     },
-    "tifF": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "g": {
+        "vote_faiz": 0,
+        "vote_anjas": 1
     },
-    "tifG": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "h": {
+        "vote_faiz": 0,
+        "vote_anjas": 2
     },
-    "tifH": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "i": {
+        "vote_faiz": 0,
+        "vote_anjas": 3
     },
-    "tifI": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "j": {
+        "vote_faiz": 1,
+        "vote_anjas": 2
     },
-    "tifJ": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "k": {
+        "vote_faiz": 1,
+        "vote_anjas": 3
     },
-    "tifK": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "l": {
+        "vote_faiz": 2,
+        "vote_anjas": 3
     },
-    "tifL": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "m": {
+        "vote_faiz": 6,
+        "vote_anjas": 7
     },
-    "tifM": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "n": {
+        "vote_faiz": 3,
+        "vote_anjas": 10
     },
-    "tifN": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "o": {
+        "vote_faiz": 7,
+        "vote_anjas": 20
     },
-    "tifO": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
-    },
-    "tifP": {
-        "vote1": 17,
-        "vote2": 15,
-        "total": 35
+    "p": {
+        "vote_faiz": 1,
+        "vote_anjas": 30
     }
 }

@@ -30,10 +30,10 @@ class Home extends Component {
                         error: undefined,
                         errorCount: 0
                     })
-                }, 3000);
+                }, 1000);
             })
             .catch(error => {
-                if (this.state.errorCount < 10) {
+                if (this.state.errorCount < 30) {
                     setTimeout(
                         () => {
                             this.setState({

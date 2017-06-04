@@ -15,11 +15,13 @@ class BarChart extends Component {
         ];
         let higher = (vote1 > vote2) ? vote1 : vote2;
         let lower = (vote1 < vote2) ? vote1 : vote2;
+        let stepSize = 5;
         if(unvoted) {
             labels.push('Belum Memilih');
             data.push(unvoted);
             higher = (higher > unvoted) ? higher : unvoted;
             lower = (lower < unvoted) ? lower : unvoted;
+            stepSize = 100;
         }
         // const backgroundColor = [
         //     'rgba(255, 159, 64, 0.8)',
@@ -50,9 +52,9 @@ class BarChart extends Component {
             scales: {
                 yAxes: [{
                     ticks: {
-                        min: lower == 0 ? lower : lower-1,
-                        max: higher + 1,
-                        stepSize: (higher-lower)/10
+                        min: lower > 5 ? Math.floor((lower - 1)/5) * 5 - 5 : 0,
+                        max: Math.floor((higher + 1)/5) * 5 + 5,
+                        stepSize: stepSize
                     }
                 }]
             }
