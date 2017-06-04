@@ -15,7 +15,7 @@ class Home extends Component {
         // this.fetchData = this.fetchData.bind(this);
     }
     fetchData() {
-        console.log('fetching...');
+        // console.log('fetching...');
         fetch('http://45.32.115.11:1404/vote/report', {
             headers: {
                 'Accept': 'application/json',
@@ -40,7 +40,7 @@ class Home extends Component {
                                 error,
                                 errorCount: this.state.errorCount + 1
                             });
-                        }, 3000);
+                        }, 1000);
                 }
             });
     }
@@ -66,7 +66,7 @@ class Home extends Component {
 
             );
         } else {
-            console.log(this.state.data);
+            // console.log(this.state.data);
             const { vote_faiz, vote_anjas, golput } = this.state.data;
             const data = {
                 labels: [
