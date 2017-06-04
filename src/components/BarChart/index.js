@@ -13,9 +13,13 @@ class BarChart extends Component {
             vote1,
             vote2
         ];
+        let higher = (vote1 > vote2) ? vote1 : vote2;
+        let lower = (vote1 < vote2) ? vote1 : vote2;
         if(unvoted) {
             labels.push('Belum Memilih');
             data.push(unvoted);
+            higher = (higher > unvoted) ? higher : unvoted;
+            lower = (lower < unvoted) ? lower : unvoted;
         }
         // const backgroundColor = [
         //     'rgba(255, 159, 64, 0.8)',
@@ -42,7 +46,16 @@ class BarChart extends Component {
             }]
         }
         const options = {
-            responsive: true
+            responsive: true,
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        min: lower == 0 ? lower : lower-1,
+                        max: higher + 1,
+                        stepSize: (higher-lower)/10
+                    }
+                }]
+            }
         }
 
         return (
