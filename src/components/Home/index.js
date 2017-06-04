@@ -91,10 +91,10 @@ class Home extends Component {
                 vote2: vote_anjas,
                 unvoted: golput
             };
-            let dataKelasA, dataKelasB, dataKelasC, dataKelasD = dataKelasC = dataKelasB = dataKelasA = {
-                vote1: 17,
-                vote2: 15
-            };
+            // let dataKelasA, dataKelasB, dataKelasC, dataKelasD = dataKelasC = dataKelasB = dataKelasA = {
+            //     vote1: 17,
+            //     vote2: 15
+            // };
             const { a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p } = this.state.data;
             return (
 
