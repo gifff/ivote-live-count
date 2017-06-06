@@ -44,18 +44,19 @@ class BarChart extends Component {
                     'rgba(54, 162, 235, 1)',
                     'rgba(201, 203, 207, 1)'
                 ],
-                label: 'Jumlah Suara Masuk'
+                label: 'Jumlah Suara Masuk',
             }]
         }
         const options = {
             responsive: true,
             legend: {
-                position: 'bottom'
+                position: 'bottom',
+                display:false
             },
             scales: {
                 yAxes: [{
                     ticks: {
-                        min: lower > 5 ? Math.floor((lower - 1)/5) * 5 - 5 : 0,
+                        min: 0,
                         max: Math.floor((higher + 1)/5) * 5 + 5,
                         stepSize: stepSize
                     }
