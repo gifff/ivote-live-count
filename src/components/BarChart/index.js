@@ -49,6 +49,9 @@ class BarChart extends Component {
         }
         const options = {
             responsive: true,
+            legend: {
+                position: 'bottom'
+            },
             scales: {
                 yAxes: [{
                     ticks: {

@@ -179,7 +179,7 @@ class Home extends Component {
                     <Grid.Row>
                         <Grid.Column width="3">
                             <Header as='h3'>Powered by: </Header>
-                            <Image src='/images/bcc.jpg' fluid />
+                            <Image src='/images/bcc.jpg' fluid href="http://bcc.ptiik.ub.ac.id/"/>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
